@@ -1,0 +1,6 @@
+frase = str(input('Fala uma frase aí meu parceiro: ')).strip().lower()
+print("Sua frase tem {} letras 'a'.".format(frase.count('a')))
+primeira = frase.find('a')
+segunda = frase.rfind('a')
+print("A letra 'a' aparece pela primeira vez na letra {}".format(primeira +1))
+print("A letra 'a' aparece pela última vez na letra {}".format((segunda)+1))
